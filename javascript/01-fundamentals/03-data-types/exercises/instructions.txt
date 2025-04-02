@@ -1,0 +1,22 @@
+1.
+Declare a variable named productName and assign it a string value representing a product name. Use console.log() to display the variable and its type.
+2.
+Declare a variable named price and assign it a numeric value representing the price of the product. Use console.log() to display the variable and its type.
+3.
+Declare a variable named inStock and assign it a boolean value indicating whether the product is in stock. Use console.log() to display the variable and its type.
+4.
+Declare a variable named discount and assign it a value of null (initially, there's no discount). Use console.log() to display the variable and its type.
+5.
+Declare a variable named quantity. Do not assign it any value. Use console.log() to display the variable and its type.
+6.
+Use the typeof operator to check the data type of the following values directly in console.log():
+◦
+123
+◦
+'hello'
+◦
+true
+◦
+null
+◦
+undefined

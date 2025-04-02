@@ -1,0 +1,32 @@
+1.
+Declare two variables, numA with the value 15 and numB with the value 8.
+◦
+Calculate their sum, difference, product, and quotient using arithmetic operators. Display each result using console.log().
+◦
+Find the remainder when numA is divided by numB using the modulus operator and display the result.
+2.
+Declare a variable count with an initial value of 0.
+◦
+Increment count by 5 using the += operator.
+◦
+Decrement count by 2 using the -= operator.
+◦
+Multiply count by 3 using the *= operator.
+◦
+Display the final value of count.
+3.
+Declare two variables, age1 with the value 25 and age2 with the string value "25".
+◦
+Use both loose equality (==) and strict equality (===) to compare age1 and age2. Display the results and explain why they are different.
+◦
+Compare if age1 is greater than 20 and if age2 (treated as a number) is less than or equal to 30. Display the boolean results.
+4.
+Declare two boolean variables, hasPermission as true and isLoggedIn as false.
+◦
+Use the logical AND operator to check if the user has permission and is logged in. Display the result.
+◦
+Use the logical OR operator to check if the user has permission or is logged in. Display the result.
+◦
+Use the logical NOT operator to check if the user does not have permission. Display the result.
+5.
+Use the ternary operator to determine if a variable score (with a value of 75) is passing (score greater than or equal to 60). Display "Passing" or "Failing" based on the score.

@@ -1,0 +1,49 @@
+JavaScript Control Flow Exercises
+===================================
+
+Follow these exercises to practice each control flow topic. Create your solution files (e.g., ifElseExercise.js, forLoopExercise.js) in this folder.
+
+1. If/Else Exercise:
+   - Declare a variable 'score' with a value of 85.
+   - Use if...else if...else to print:
+     * "Excellent" if score is 90 or above.
+     * "Good" if score is between 70 and 89.
+     * "Needs Improvement" if score is below 70.
+   - Bonus: Use a ternary operator to print "Pass" if score is ≥ 60, else "Fail".
+
+2. Switch Statement Exercise:
+   - Declare a variable 'grade' with a value among 'A', 'B', 'C', 'D', or 'F'.
+   - Use a switch statement to display a message based on the grade:
+     * 'A': "Outstanding!"
+     * 'B': "Great job!"
+     * 'C': "Good effort."
+     * 'D': "Room for improvement."
+     * 'F': "Failing. Study harder."
+     * Default: "Invalid grade."
+
+3. Loop Exercises:
+   - For Loop:
+     * Write a for loop that counts down from 10 to 1 and logs each number.
+   - While Loop:
+     * Write a while loop that calculates and prints the sum of all even numbers from 2 to 20.
+   - Do...While Loop:
+     * Write a do...while loop that prints a countdown from 5 to 1.
+   - For...in Loop:
+     * Create an object with several properties and use a for...in loop to log each key and its value.
+   - For...of Loop:
+     * Create an array of strings and use a for...of loop to log each element.
+   - Array.forEach():
+     * Create an array of numbers and use forEach to log each number along with its index.
+
+4. Loop Control Exercise:
+   - Write a loop that iterates from 1 to 15.
+   - If the current number is divisible by 3, skip printing it (use continue).
+   - If the current number is greater than 12, exit the loop (use break).
+   - Print the number if it passes the above conditions.
+
+Instructions to run your exercises:
+-------------------------------------
+1. Open your integrated terminal.
+2. Navigate to the exercises folder:
+   cd path/to/javascript-learning/01-fundamentals/05-control-flow/exercises
+3. Execute your exercise file (e.g., node ifElseExercise.js) to see the output.

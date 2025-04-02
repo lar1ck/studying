@@ -1,0 +1,9 @@
+1.Declare a constant variable named favColor and assign it your favorite color as a string. Then, use console.log() to display the value of this variable.
+
+2.Declare a let variable named age and assign it your current age as a number.
+
+3.Increment the value of the age variable by 1 (you can use the ++ operator or age = age + 1).
+
+4.Use console.log() to display the updated value of the age variable.
+
+5.Declare a constant variable named greeting and assign it the string "Hello". Then declare a let variable named name and assign it your name as a string. Use console.log() to display a complete greeting by combining the greeting and name variables (you can use the + operator for string concatenation).
