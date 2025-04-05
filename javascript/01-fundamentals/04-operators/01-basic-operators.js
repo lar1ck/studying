@@ -33,7 +33,7 @@ console.log('x /= 2:', x); // 16
 x %= 5; // Equivalent to x = x % 5
 console.log('x %= 5:', x); // 1
 
-console.log('\n--- Comparison Operators ---');
+console.log('\n--- Comparson Operators ---');
 
 let a = 10;
 let b = '10';
@@ -62,7 +62,7 @@ console.log('\n--- Other Operators ---');
 // Ternary (Conditional) Operator: shorthand for if...else [1]
 let age = 20;
 let canDrive = age>= 16 ? 'Yes' : 'No';
-console.log('Can drive?', canDrive)
+console.log('Can drive?', canDrive);
 
 // typeof Operator: Returns the data type of an operand (already seen)
 
@@ -72,7 +72,7 @@ let userName;
 let defaultName = 'Guest';
 let currentName = userName ?? defaultName;
 
-console.log('The current user name is:', currentName)
+console.log('The current user name is:', currentName);
 
 userName = 'Alice';
 currentName = userName ?? defaultName;
