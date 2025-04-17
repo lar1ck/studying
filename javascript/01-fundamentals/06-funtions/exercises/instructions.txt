@@ -1,0 +1,107 @@
+
+------- 01 -------
+1. Create a function named `printWelcome` that logs "Welcome to JavaScript!".
+   - Call the function once.
+
+2. Create a function named `multiply` that takes two numbers and returns their product.
+   - Call the function with values 4 and 6.
+   - Log the result.
+
+3. Create a function named `isEven` that takes one number and returns true if the number is even, false otherwise.
+   - Test with both an even and odd number.
+
+4. Demonstrate that function declarations are hoisted by calling a function before it is declared.
+
+
+------- 02 -------
+1. Create a function expression assigned to a variable called `greetUser`.
+   - The function should take a name and log "Hello, <name>!".
+   - Call the function with your name.
+
+2. Create a function expression named `triple` that takes a number and returns its triple.
+   - Call it with 5 and log the result.
+
+3. Create a named function expression called `power` that takes two numbers (base and exponent).
+   - Return base raised to the power of exponent.
+   - Call it with 2 and 3 (2^3) and log the result.
+
+4. Try calling a function expression before its declaration.
+   - Observe the ReferenceError in the console.
+   - Comment the line after testing to avoid stopping other exercises.
+
+
+------- 03 -------
+1. Create an arrow function called `greetUser` that takes a name and logs "Welcome, <name>!".
+   - Call it with your name.
+
+2. Create an arrow function called `double` that takes a number and returns it doubled.
+   - Use the implicit return.
+   - Call it with 10 and log the result.
+
+3. Create a function `getAgeMessage` that takes an age and returns "You are an adult" if age >= 18, else "You are a minor".
+   - Use a ternary operator inside an arrow function.
+   - Test it with 16 and 20.
+
+4. Create an arrow function `buildCar` that takes a `brand` and `model` and returns an object with those properties.
+   - Call it with "Toyota" and "Corolla" and log the result.
+
+5. Try using an arrow function inside an object like:
+   ```js
+   const obj = {
+     name: 'Test',
+     sayHi: () => {
+       console.log('Hi', this.name);
+     }
+   };
+
+
+------- 04 -------
+1. Create a function called `introduce` that accepts `name` and `language`. 
+   - Default `name` to "Anonymous"
+   - Default `language` to "JavaScript"
+   - Return a sentence like: "My name is [name] and I code in [language]."
+
+2. Create a function `addToCart` that takes `itemName`, `quantity` (default to 1), and `price` (default to 0).
+   - Return a string like "Added [quantity] x [itemName] to cart. Total: $[quantity * price]".
+
+3. Create a function `power(base, exponent)` where:
+   - `exponent` defaults to 2
+   - Return `base` raised to the `exponent`
+
+4. Create a function `welcomeUser` that uses current year (via `new Date()`) as default value for the `yearJoined` parameter.
+   - Return a string like "Welcome! You joined in [yearJoined]".
+
+
+------- 05 -------
+1.Create a function subtract(a, b) that returns the difference between the two numbers.
+
+2.Create a function formatName(first, last) that returns "Last, First" format.
+
+3.Create a function isEven(num) that returns true if the number is even, otherwise false.
+
+4.Create a function getCircleArea(radius) that returns the area using π * r * r (use Math.PI).
+
+5.Create a function getGreeting(name):
+    -If no name is passed, return "Hello, guest!"
+    -Otherwise return "Hello, [name]!"
+
+
+------- 06 -------
+1. Create a function `calculateAverage` that takes a list of numbers as arguments using the rest parameter.
+   - Return the average of all numbers.
+   - Test it with a varying number of arguments.
+
+2. Create a function `buildSentence` that takes a subject and a rest parameter for the rest of the sentence (e.g., "subject", "is", "a", "developer").
+   - Return the complete sentence as a string.
+   - Test it with multiple words.
+
+3. Create a function `getMax` that takes a rest parameter of numbers.
+   - Return the largest number in the list.
+   - Test it with multiple numbers.
+
+4. Create a function `joinStrings` that takes a string as the first parameter and other strings using the rest parameter.
+   - Return a single string by concatenating all strings (including the first one).
+   - Test it with different sets of strings.
+
+5. Create a function `countArguments` that takes a rest parameter and returns the number of arguments passed.
+   - Test it with different numbers of arguments.
